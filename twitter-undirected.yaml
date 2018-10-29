@@ -8,6 +8,6 @@ graph: # Graph specification
   partition_strategy: prepartitioned
   file_format: evrfiles
   rfile: $GRAPE_TEST/twitter.r
-  efile: $GRAPE_TEST/twitter.e
+  efile: $GRAPE_TEST/twitter.ue
   vfile: $GRAPE_TEST/twitter.v
   serialization_prefix: ./twitter_serialization
