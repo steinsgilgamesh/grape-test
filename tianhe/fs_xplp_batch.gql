@@ -1,0 +1,9 @@
+################ XPLP TEST#################
+friendster = loadgraph("$GRAPE_LIB/grape-test/tianhe/fs-64-u.yaml")
+bxplp = loadapp("$GRAPE_LIB/xplp_batch.yaml")
+
+bxplp.query(64 1 2 1 1000000 30 0.05 ./grape-test/sources-64.txt, "im")
+
+unloadapp(bxplp)
+unloadgraph(friendster)
+exit
